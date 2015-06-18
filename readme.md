@@ -1,2 +1,6 @@
 # Sorting
-Just a collection of sorting exercises using various languages for fun
+A collection of sorting exercises for fun. Currently just sorting individual characters.
+
+## Algorithms
+- Bubble
+- Count
