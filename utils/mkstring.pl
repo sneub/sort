@@ -2,8 +2,6 @@
 sub randomstr {
     my $size = shift;
     my @chars = ("A".."Z", "a".."z");
-    my $string;
-    $string .= $chars[rand @chars] for 1..$size;
-    return $string;
+    print $chars[rand @chars] for 1..$size;
 }
-print randomstr($ARGV[0]);
+randomstr($ARGV[0]);
