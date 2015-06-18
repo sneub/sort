@@ -2,7 +2,7 @@
 
 import sys
 
-def rewritesort(s):
+def countsort(s):
     output = []
     n = list(ord(x) for x in s)
     d = {}
@@ -28,7 +28,7 @@ with open(sys.argv.pop(), "r") as f:
 jumble = lines[0].rstrip("\n")
 expect = lines[1].rstrip("\n")
 
-if rewritesort(jumble) == expect:
+if countsort(jumble) == expect:
     print "result: success"
     sys.exit(0)
 else:
