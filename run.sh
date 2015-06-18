@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-methods="bubble rewrite"
+methods="bubble count"
 datasets="1k 2k 4k 8k 16k 32k"
 
 [[ $# > 0 ]] && { methods=$1 && shift; }
