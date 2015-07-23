@@ -4,3 +4,5 @@ A collection of sorting exercises for fun. Currently just sorting individual cha
 ## Algorithms
 - Bubble
 - Count
+- Quick
+- Merge
